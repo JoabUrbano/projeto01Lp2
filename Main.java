@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ProdutoView {
+public class Main {
      public static void main(String[] args) {
         ArrayList<Produto> carrinho = new ArrayList<Produto>();
 
@@ -36,6 +36,7 @@ public class ProdutoView {
 
         for (Produto pp : carrinho) {
             System.out.println(pp.getDescricao());
+            System.out.println("");
         }
     }
 }
